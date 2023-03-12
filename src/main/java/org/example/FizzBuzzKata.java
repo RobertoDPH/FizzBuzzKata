@@ -3,14 +3,21 @@ package org.example;
 public class FizzBuzzKata {
     public String fizzBuzzKata(int number){
         String result = "";
+        String numberConvertedToString = String.valueOf(number);
 
-
+        if(numberConvertedToString.contains("3")){
+            result += "Fizz";
+        }
 
         if(number % 3 == 0){
             result += "Fizz";
         }
 
-        if(number % 5 == 0){
+        if(numberConvertedToString.contains("5")){
+            result += "Buzz";
+        }
+
+        if(number % 5 == 0 ){
             result += "Buzz";
         }
 
@@ -18,6 +25,6 @@ public class FizzBuzzKata {
             return result;
         }
 
-        return String.valueOf(number);
+        return numberConvertedToString;
     }
 }
