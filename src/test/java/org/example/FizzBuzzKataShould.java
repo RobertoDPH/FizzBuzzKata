@@ -54,6 +54,12 @@ public class FizzBuzzKataShould {
     }
 
     @Test
+    public void returnBuzzBuzzIfNumberContainsNumber5And3(){
+        String result = new FizzBuzzKata().fizzBuzzKata(53);
+        assertThat(result).isEqualTo("FizzBuzz");
+    }
+
+    @Test
     public void returnFizzBuzzBuzzIfNumberContainsNumber3And5AndIsDivisibleBy5(){
         String result = new FizzBuzzKata().fizzBuzzKata(35);
         assertThat(result).isEqualTo("FizzBuzzBuzz");
