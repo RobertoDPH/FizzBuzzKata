@@ -1,4 +1,4 @@
-# [FizzBuzz Kata](codingdojo.org/kata/FizzBuzz/)
+# [FizzBuzz Kata](https://codingdojo.org/kata/FizzBuzz/)
 
 ## Stage 1
 
