@@ -1,7 +1,7 @@
 package org.example;
 
 public class FizzBuzzKata {
-    public String fizzBuzzKata(int number){
+    public String checkFizzBuzzNumber(int number){
         String result = "";
         String numberConvertedToString = String.valueOf(number);
 
@@ -26,5 +26,11 @@ public class FizzBuzzKata {
         }
 
         return numberConvertedToString;
+    }
+
+    public void showNumbersKata(){
+        for (int number = 0; number < 100; number++) {
+            System.out.println(checkFizzBuzzNumber(number));
+        }
     }
 }
