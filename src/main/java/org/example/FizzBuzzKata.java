@@ -29,7 +29,7 @@ public class FizzBuzzKata {
     }
 
     public void showNumbersKata(){
-        for (int number = 0; number < 100; number++) {
+        for (int number = 1; number <= 100; number++) {
             System.out.println(checkFizzBuzzNumber(number));
         }
     }
